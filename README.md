@@ -14,5 +14,9 @@ Raspberry Pi Camera module intended for Drone/Flight devices.
 ## Setup:
 
 1) Bootup Raspberry Pi
-2) Download Github
+2) Clone/Download the repository
+3) Open python file, and replace the "path" variable with the raspberry pi to your USB.
+4) Check if the USB path is correct, and change opacity & time settings to your liking.
+
+
 
