@@ -9,3 +9,9 @@ Raspberry Pi Camera module intended for Drone/Flight devices.
 - time module (pre-installed with raspbian)
 - os module (pre-installed with raspbian)
 - random module (pre-installed with raspbian)
+- USB (32GB+ Recommended for lengthy projects)
+
+## Setup:
+
+1) a
+
