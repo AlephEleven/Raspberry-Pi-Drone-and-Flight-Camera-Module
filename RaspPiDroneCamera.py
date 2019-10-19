@@ -6,7 +6,10 @@ import os
 import random
 
 camera = PiCamera()
-path = '/media/pi/USB/test_directory/raspvideos'
+path = '/media/pi/name_of_usb/custom_directory' #Here you can replace 'name_of_usb' and 'custom_directory' to the directory in which
+                                                #your video folder will be made in.
+video_duration = 20 #Duration of each seperate video shot (Recommended: <10 minutes)
+video_opacity = 200 #Opacity of the video, allows you to see the screen of your Pi while running the camera. (Change only if needed)
 
 
 def test_camera(duration=5):
@@ -87,7 +90,7 @@ video_path = create_new_folder(path)[0]
 
 while True:
                            
-    main(video_path,20,200)
+    main(video_path,video_duration,video_opacity)
 
     
 
