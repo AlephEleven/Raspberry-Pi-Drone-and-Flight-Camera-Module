@@ -6,7 +6,7 @@ import os
 import random
 
 camera = PiCamera()
-path = '/media/pi/SAMSUNGUSB/test_directory/raspvideos'
+path = '/media/pi/USB/test_directory/raspvideos'
 
 
 def test_camera(duration=5):
