@@ -23,7 +23,10 @@ multiple videos during unhandled flight.
 
 ## How it works:
 
-1) Program intializes picamera module, and checks the directory set 
+1) Program intializes picamera module, and checks if the USB directory exists.
+2) In the directory set, check if there is already a folder that exists with the set video name ('folder' in this case), if there is, iterate, until the folder name does not exist, set folder name as 'folder#' (# replaced with highest folder number).
+3) In video directory, do the same execution as setting a folder directory.
+4) Run Camera Module using opacity and time settings, save video as 'video#.h264', and repeat step 3, until the program is interrupted.
 
 
 
