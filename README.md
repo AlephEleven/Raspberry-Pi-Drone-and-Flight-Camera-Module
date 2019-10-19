@@ -13,5 +13,6 @@ Raspberry Pi Camera module intended for Drone/Flight devices.
 
 ## Setup:
 
-1) a
+1) Bootup Raspberry Pi
+2) Download Github
 
